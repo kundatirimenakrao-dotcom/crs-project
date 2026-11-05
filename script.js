@@ -491,6 +491,18 @@ window.onclick = function(event) {
     if (event.target === loginModal) closeLogin();
 };
 
+Object.assign(window, {
+    closeBooking,
+    closeLogin,
+    confirmBooking,
+    confirmPageBooking,
+    login,
+    openBooking,
+    openLogin,
+    searchCars,
+    toggleNavigation
+});
+
 initializeLocalStorage();
 renderCarsToPage();
 initAdminPage();

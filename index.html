@@ -32,6 +32,6 @@
     <footer><a class="logo" href="#home">wayfare<span>.</span></a><p>Cars for the places you'll remember.</p><p class="footer-right">© 2026 Wayfare · <a href="mailto:hello@wayfare.co">hello@wayfare.co</a></p></footer>
     <div class="modal" id="bookingModal"><div class="modal-box"><button class="close" onclick="closeBooking()" aria-label="Close booking">×</button><p class="eyebrow">Reserve your ride</p><h2 id="carName">Book your car</h2><div class="form-grid"><input type="text" id="customerName" placeholder="Full name"><input type="email" id="customerEmail" placeholder="Email address"><input type="tel" id="customerPhone" placeholder="Phone number"><input type="date" id="bookPickup"><input type="date" id="bookReturn"></div><button class="dark-button full-button" onclick="confirmBooking()">Confirm booking <span>→</span></button><div id="bookingMessage"></div></div></div>
     <div class="modal" id="loginModal"><div class="modal-box small-modal"><button class="close" onclick="closeLogin()" aria-label="Close login">×</button><p class="eyebrow">Welcome back</p><h2>Sign in to Wayfare</h2><input type="email" id="loginEmail" placeholder="Email address"><input type="password" id="loginPassword" placeholder="Password"><button class="dark-button full-button" onclick="login()">Sign in <span>→</span></button><p id="loginMessage"></p></div></div>
-    <script src="script.js"></script>
+    <script type="module" src="/script.js"></script>
 </body>
 </html>
